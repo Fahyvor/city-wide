@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import '@fontsource/montserrat';
 import { useState } from "react";
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/our-works" element={<Portfolio />} /> */}
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
     </Router>
   );
 }

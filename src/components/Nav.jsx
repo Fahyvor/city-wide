@@ -26,24 +26,24 @@ const Nav = () => {
     <div className={`fixed w-full z-20  ${ isScrolled ? 'bg-white text-black' : 'bg-transparent text-white' }
           `}>
         <div className='bg-blue-950 py-2 px-9'>
-          <p className='text-sm'>Call us today! +1 123 456 7890 | info@citywidemanagement.com</p>
+          <p className='text-sm text-white'>Call us today! +1 123 456 7890 | info@citywidemanagement.com</p>
         </div>
-      <div className=' w-full flex gap-3 border-2 border-gray-50 py-8 items-center shadow-lg '>
+      <div className=' w-full flex gap-3 border-2 border-gray-50 items-center shadow-lg '>
         <div className='lg:w-1/3 md:w-1/3 w-1/4 lg:px-5 md:px-5 px-2 '>
-          <a href='/' className='font-bold'>
+          <a href='/' className='font-semibold'>
             <p className='uppercase'>City Wide Management</p>
             {/* <img src={Logo} alt="" className='w-28 object-cover'/> */}
           </a>
         </div>
 
-        <div className='lg:w-1/2 md:w-2/3 w-3/4 gap-8 lg:flex md:flex hidden items-center justify-end px-10'>
-          <a href='/' className='text-base md:text-md text-nowrap uppercase'>Home</a>
-          <a href='/about' className='text-base md:text-md text-nowrap uppercase'>About</a>
-          <a href='/contact-us' className='text-base md:text-md text-nowrap uppercase'>Services</a>
-          <a href='/our-works' className='text-base md:text-md text-nowrap uppercase'>Properties</a>
-          <a href='/our-works' className='text-base md:text-md text-nowrap uppercase'>Pricing</a>
-          <div className="get-in-touch flex-nowrap">
-            <a className='uppercase text-nowrap'>Get In Touch</a>
+        <div className='lg:w-2/3 md:w-2/3 w-3/4 gap-8 lg:flex md:flex hidden items-center justify-end px-10'>
+          <a href='/' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Home</a>
+          <a href='/about' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>About</a>
+          <a href='/contact-us' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Services</a>
+          <a href='/our-works' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Properties</a>
+          <a href='/our-works' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Pricing</a>
+          <div className="get-in-touch flex-nowrap border-2 border-white p-3">
+            <a className='uppercase text-sm text-nowrap'>Get In Touch</a>
           </div>
         </div>
 
