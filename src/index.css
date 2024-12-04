@@ -15,7 +15,7 @@
 }
 
 .perspective {
-  perspective: 1000px; /* Adds depth for the 3D effect */
+  perspective: 1000px;
 }
 
 .flip-card-inner {

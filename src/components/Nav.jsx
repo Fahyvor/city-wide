@@ -25,13 +25,13 @@ const Nav = () => {
   return (
     <div className={`fixed w-full z-20  ${ isScrolled ? 'bg-white text-black' : 'bg-transparent text-white' }
           `}>
-        <div className='bg-blue-950 py-2 px-9'>
-          <p className='text-sm text-white'>Call us today! +1 123 456 7890 | info@citywidemanagement.com</p>
+        <div className='bg-gray-900 py-2 lg:px-9 md:px-7 px-2'>
+          <p className='lg:text-sm md:text-sm text-xs text-white text-nowrap'>Call us today! +1 123 456 7890 | info@citywidemanagement.com</p>
         </div>
       <div className=' w-full flex gap-3 border-2 border-gray-50 items-center shadow-lg '>
-        <div className='lg:w-1/3 md:w-1/3 w-1/4 lg:px-5 md:px-5 px-2 '>
+        <div className='lg:w-1/3 md:w-1/3 w-1/4 lg:px-5 md:px-5 px-2 lg:py-0 md:py-0 py-3'>
           <a href='/' className='font-semibold'>
-            <p className='uppercase'>City Wide Management</p>
+            <p className='uppercase lg:text-sm md:text-sm text-xs text-nowrap'>City Wide Management</p>
             {/* <img src={Logo} alt="" className='w-28 object-cover'/> */}
           </a>
         </div>
@@ -43,7 +43,7 @@ const Nav = () => {
           <a href='/our-works' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Properties</a>
           <a href='/our-works' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Pricing</a>
           <div className="get-in-touch flex-nowrap border-2 border-white p-3">
-            <a className='uppercase text-sm text-nowrap'>Get In Touch</a>
+            <a href='/contact-us' className='uppercase text-sm text-nowrap'>Get In Touch</a>
           </div>
         </div>
 
@@ -63,11 +63,12 @@ const Nav = () => {
         }`}
         style={{ width: '60%' }}
       >
-        <div className="p-4 pt-6 flex flex-col gap-6">
+        <div className="p-4 pt-6 flex flex-col gap-6 bg-white text-gray-950 h-screen">
           <a href='/'>Home</a>
           <a href='/about'>About Us</a>
-          <a href='/contact-us'>Contact Us</a>
-          <a href='/our-works'>Our Works</a>
+          <a href='/properties'>Properties</a>
+          <a href='/pricing'>Pricing</a>
+          <a href='/get-in-touch'>Get In Touch</a>
         </div>
       </div>
     </div>
