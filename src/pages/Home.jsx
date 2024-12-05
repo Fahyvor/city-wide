@@ -54,17 +54,17 @@ const Home = () => {
 
   return (
     <div className=' w-full'>
-      <div className="home_body lg:pt-[12%] md:pt-[12%] pt-[25%] w-full pb-[10%]" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+      <div className="home_body lg:pt-[12%] md:pt-[18%] pt-[25%] w-full pb-[10%]" style={{ backgroundImage: `url(${BackgroundImage})` }}>
         <p className='lg:text-6xl md:text-4xl text-3xl leading-relaxed text-center font-bold text-white lg:mx-0 md:mx-0 mx-3'>A SIMPLE APPROACH TO PROPERTY MANAGEMENT</p>
         <p className='text-white text-center lg:text-xl md:text-xl text-sm lg:w-full md:w-full w-5/6 mx-auto'>We make it a pleasure to be a tenant and profitable to be a landlord</p>
 
         <div className="explore_and_get_in_touch flex lg:flex-row md:flex-row flex-col p-6 py-10 justify-center gap-6">
           <div className=' border-2 border-white p-2 px-12 cursor-pointer text-center hover:bg-gray-500'>
-            <a href='/' className='text-white font-bold tracking-widest'>Explore Properties</a>
+            <a href='/properties' className='text-white font-bold tracking-widest'>Explore Properties</a>
           </div>
 
           <div className=' border-2 border-white p-2 px-12 cursor-pointer text-center hover:bg-gray-500'>
-            <a href='/' className='text-white font-bold tracking-widest'>Get in touch today</a>
+            <a href='/get-in-touch' className='text-white font-bold tracking-widest'>Get in touch today</a>
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@ const Home = () => {
             ))}
         </div>
 
-        <p className='mx-auto border-2 text-white hover:bg-blue-950 bg-blue-800 lg:w-1/5 md:w-1/5 w-1/2 py-1 text-center'><a href='/'>View All Properties</a></p>
+        <p className='mx-auto border-2 text-white hover:bg-blue-950 bg-blue-800 lg:w-1/5 md:w-1/5 w-1/2 py-1 text-center'><a href='/properties'>View All Properties</a></p>
       </div>
 
       <div className='our_core_values w-full py-10'>
@@ -217,7 +217,7 @@ const Home = () => {
           City Wide Property Management Inc considers its core values to be a key tool managing its clients valued property. These values fuel the company's reputation as a place where clients are happy and confident their investment is in good hands.
         </p>
 
-        <div className="values_card grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 gap-7">
+        <div className="values_card grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 p-5 gap-7">
           <div className="great_services w-full flex flex-col items-center gap-4">
               <IoIosHome className='w-20 h-20 text-white bg-green-700 p-5 rounded-full hover:border-4 hover:border-white'/>
               <p className='text-sm font-semibold'>Great Services</p>
@@ -251,14 +251,14 @@ const Home = () => {
         
         <div className="peace_of_mind flex lg:flex-row md:flex-row flex-col gap-4 lg:p-16 md:p-12 p-7 py-[10%]" style={{ backgroundImage: `url(${LowerImage})` }}>
           <div className='pm_left lg:w-[65%] md:w-[65%] w-full'>
-            <p className='text-3xl leading-loose text-white font-semibold text-justify'>Have the peace-of-mind of knowing your investment is in good hands!</p>
+            <p className='lg:text-3xl md:text-2xl text-xl lg:leading-loose md:leading-loose leading-normal text-white font-semibold text-justify'>Have the peace-of-mind of knowing your investment is in good hands!</p>
             <hr className='bg-white w-1/2 h-1 my-3'/>
 
-            <p className='text-lg my-3 lg:w-3/4 md:w-3/4 w-full text-white'>We offer a range of services to fill your property management needs. For more information, get in touch.</p>
+            <p className='lg:text-lg md:text-lg text-sm my-3 lg:w-3/4 md:w-3/4 w-full text-white'>We offer a range of services to fill your property management needs. For more information, get in touch.</p>
           </div>
 
           <div className='lg:w-[35%] md:w-[35%] w-full flex flex-col gap-4 justify-center'>
-            <p className='border-white  text-white text-center py-4 border-2 hover:bg-gray-800'><a href='/'>Get in Touch</a></p>
+            <p className='border-white  text-white text-center lg:py-4 md:py-4 py-2 border-2 hover:bg-gray-800'><a href='/'>Get in Touch</a></p>
             <p className='text-white font-semibold'>Only takes a few seconds!</p>
           </div>
         </div>

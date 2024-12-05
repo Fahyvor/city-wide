@@ -31,19 +31,19 @@ const Nav = () => {
       <div className=' w-full flex gap-3 border-2 border-gray-50 items-center shadow-lg '>
         <div className='lg:w-1/3 md:w-1/3 w-1/4 lg:px-5 md:px-5 px-2 lg:py-0 md:py-0 py-3'>
           <a href='/' className='font-semibold'>
-            <p className='uppercase lg:text-sm md:text-sm text-xs text-nowrap'>City Wide Management</p>
+            <p className='uppercase lg:text-sm md:text-sm text-xs text-nowrap lg:flex md:hidden flex'>City Wide Management</p>
             {/* <img src={Logo} alt="" className='w-28 object-cover'/> */}
           </a>
         </div>
 
         <div className='lg:w-2/3 md:w-2/3 w-3/4 gap-8 lg:flex md:flex hidden items-center justify-end px-10'>
-          <a href='/' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Home</a>
-          <a href='/about' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>About</a>
-          <a href='/contact-us' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Services</a>
-          <a href='/our-works' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Properties</a>
-          <a href='/our-works' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8'>Pricing</a>
+          <a href='/' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8 font-semibold'>Home</a>
+          <a href='/about' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8 font-semibold'>About</a>
+          <a href='/services' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8 font-semibold'>Services</a>
+          <a href='/properties' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8 font-semibold'>Properties</a>
+          {/* <a href='/our-works' className='md:text-md text-nowrap uppercase text-sm hover:border-t-4 hover:border-t-blue-800 py-8 font-semibold'>Pricing</a> */}
           <div className="get-in-touch flex-nowrap border-2 border-white p-3">
-            <a href='/contact-us' className='uppercase text-sm text-nowrap'>Get In Touch</a>
+            <a href='/get-in-touch' className='uppercase text-sm text-nowrap font-semibold'>Get In Touch</a>
           </div>
         </div>
 
@@ -66,8 +66,8 @@ const Nav = () => {
         <div className="p-4 pt-6 flex flex-col gap-6 bg-white text-gray-950 h-screen">
           <a href='/'>Home</a>
           <a href='/about'>About Us</a>
+          <a href='/services'>Services</a>
           <a href='/properties'>Properties</a>
-          <a href='/pricing'>Pricing</a>
           <a href='/get-in-touch'>Get In Touch</a>
         </div>
       </div>
