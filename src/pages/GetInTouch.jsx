@@ -16,18 +16,21 @@ const GetInTouch = () => {
                 <p className='font-bold text-xl'>ST. JOHN'S OFFICE</p>
                 <div className='flex gap-2'>
                     <FaMailBulk className='w-8 h-8'/>
-                    <p className='text-sm font-semibold'>PO Box 29072 Torbay Rd
-                    St. John’s, NL, A1A5B5</p>
+                    <p className='text-sm font-semibold'>39 Quantum Drive Paradise NL A1L OW2</p>
                 </div>
 
                 <div className='flex gap-2'>
                     <FaPhone className='w-4 h-4'/>
-                    <p className='text-sm font-semibold'>+1 (709) 700 8727</p>
+                    <div>
+                        <p className='text-sm font-semibold'>+1 (709) 330 7811</p>
+                        <p className='text-sm font-semibold'>+1 (709) 986 6811</p>
+                        <p className='text-sm font-semibold'>+1 (709) 330 7974</p>
+                    </div>
                 </div>
 
                 <div className='flex gap-2'>
                     <p className='font-bold'>@</p>
-                    <p className='text-sm font-semibold'>info@signalmanagement.ca</p>
+                    <p className='text-sm font-semibold'>citywidemgt@gmail.com</p>
                 </div>
 
                 <div className='flex gap-2'>
