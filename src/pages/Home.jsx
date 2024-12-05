@@ -78,7 +78,7 @@ const Home = () => {
         <hr className='bg-blue-800 w-1/4 mx-auto h-1 my-3'/>
 
         <p className='w-3/4 mx-auto text-md text-center mt-8 leading-loose'>
-          As one of the most competitive property management companies in Nigeria, we offer a range of services to fill
+          As one of the most competitive property management companies in Canada, we offer a range of services to fill
           your property management needs. From marketing and screening to rent collection and ongoing maintenance; we make it a breeze to own and operate a rental property.
         </p>
 
