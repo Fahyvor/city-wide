@@ -6,6 +6,10 @@ import LowerImage from '../assets/917.jpg'
 import { IoIosHome, IoMdPeople } from "react-icons/io";
 import { MdSettingsSuggest } from "react-icons/md";
 import { FaRegLightbulb } from "react-icons/fa";
+import { FaPeopleLine } from "react-icons/fa6";
+import { TbBrandSpeedtest } from "react-icons/tb";
+import { RiSecurePaymentLine } from "react-icons/ri";
+import { GrVmMaintenance } from "react-icons/gr";
 
 const availableProperties = [
   {
@@ -91,6 +95,7 @@ const Home = () => {
           >
             {/* Front Side */}
             <div className="flip-card-front flex flex-col text-center py-8 gap-3 bg-gray-300 h-full justify-center rounded-xl">
+              <FaPeopleLine className='mx-auto w-24 h-24 p-3 bg-blue-600 text-white rounded-lg'/>
               <p className="lg:text-4xl md:2xl text-lg">Marketing</p>
               <p className="text-sm leading-loose w-3/4 mx-auto">
                 We minimize the vacancy period of your property with effective and
@@ -122,6 +127,7 @@ const Home = () => {
               } w-full h-full`}
             >
               <div className="flip-card-front h-full flex flex-col text-center py-8 gap-3 bg-gray-300 justify-center rounded-xl">
+                <TbBrandSpeedtest className='mx-auto w-24 h-24 p-3 bg-blue-600 text-white rounded-lg'/>
                 <p className='lg:text-4xl md:2xl text-lg'>Screening</p>
 
                 <p className="text-sm leading-loose w-3/4 mx-auto">Experienced property managers are experts at finding good tenants, and will take care of all details</p>
@@ -148,6 +154,7 @@ const Home = () => {
               } w-full h-full`}
             >
               <div className="flip-card-front h-full flex flex-col text-center py-8 gap-3 bg-gray-300 justify-center rounded-xl">
+                <RiSecurePaymentLine className='mx-auto w-24 h-24 p-3 bg-blue-600 text-white rounded-lg'/>
                 <p className='lg:text-4xl md:2xl text-lg'>Payments</p>
 
                 <p className="text-sm leading-loose w-3/4 mx-auto">We are extremely diligent in collecting rent through a systematic, timely process to ensure you get paid on time.</p>
@@ -174,6 +181,7 @@ const Home = () => {
               } w-full h-full`}
             >
               <div className="flip-card-front h-full flex flex-col text-center py-8 gap-3 bg-gray-300 justify-center rounded-xl">
+                <GrVmMaintenance className='mx-auto w-24 h-24 p-3 bg-blue-600 text-white rounded-lg'/>
                 <p className='lg:text-4xl md:2xl text-lg'>Maintenance</p>
 
                 <p className="text-sm leading-loose w-3/4 mx-auto">Save time and money and ensure repairs are completed in a professional manner, by trustworthy personnel.</p>
@@ -207,7 +215,6 @@ const Home = () => {
             ))}
         </div>
 
-        <p className='mx-auto border-2 text-white hover:bg-blue-950 bg-blue-800 lg:w-1/5 md:w-1/5 w-1/2 py-1 text-center'><a href='/properties'>View All Properties</a></p>
       </div>
 
       <div className='our_core_values w-full py-10'>
