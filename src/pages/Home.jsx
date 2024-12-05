@@ -3,6 +3,9 @@ import BackgroundImage from '../assets/bgImage.jpg'
 import { useState } from 'react'
 import Portfolio1 from '../assets/portfolio1.png'
 import LowerImage from '../assets/917.jpg'
+import { IoIosHome, IoMdPeople } from "react-icons/io";
+import { MdSettingsSuggest } from "react-icons/md";
+import { FaRegLightbulb } from "react-icons/fa";
 
 const availableProperties = [
   {
@@ -215,20 +218,24 @@ const Home = () => {
         </p>
 
         <div className="values_card grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 gap-7">
-          <div className="great_services">
-            <p>Great Services</p>
+          <div className="great_services w-full flex flex-col items-center gap-4">
+              <IoIosHome className='w-20 h-20 text-white bg-green-700 p-5 rounded-full hover:border-4 hover:border-white'/>
+              <p className='text-sm font-semibold'>Great Services</p>
           </div>
 
-          <div className="highest_standard">
-              <p>Highest Standards</p>
+          <div className="highest_standard w-full flex flex-col items-center gap-4">
+              <MdSettingsSuggest className='w-20 h-20 text-white bg-blue-500 p-5 rounded-full hover:border-4 hover:border-white'/>
+              <p className='text-sm font-semibold'>Highest Standards</p>
           </div>
 
-          <div className="professional_team">
-            <p>Professional Team</p>
+          <div className="professional_team w-full flex flex-col items-center gap-4">
+            <IoMdPeople className='w-20 h-20 text-white bg-amber-600 p-5 rounded-full hover:border-4 hover:border-white'/>
+            <p className='text-sm font-semibold'>Professional Team</p>
           </div>
 
-          <div className="creative_solutions">
-            <p>Creative Solutions</p>
+          <div className="creative_solutions w-full flex flex-col items-center gap-4">
+            <FaRegLightbulb className='w-20 h-20 text-white bg-green-600 p-5 rounded-full hover:border-4 hover:border-white'/>
+            <p className='text-sm font-semibold'>Creative Solutions</p>
           </div>
         </div>
 
